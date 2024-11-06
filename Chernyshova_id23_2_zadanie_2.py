@@ -3,7 +3,6 @@ import json
 import math
 import os
 
-#создание симуляции волн и анимации
 class WaveSimulation:
     def __init__(self, master):
         self.canvas = tk.Canvas(master, width=800, height=600, bg='white')
